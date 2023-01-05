@@ -21,7 +21,7 @@ const createTamplete = (conectForm) => html`<section id="home">
 
 const tampleteEmailForm = () => html`<div class="container">
 
-    <h2>Google Material Design in CSS3<small>Ask me </small></h2>
+    <h2>Google Material Design in CSS3<small>For business inquiries and collaborations please contact me below and leave a link to your website or portfolio. I am looking forward to hearing from you! </small></h2>
 
     <form>
 
