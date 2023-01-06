@@ -4,6 +4,7 @@ import { serviceView } from './views/serviceView.js';
 import { homeView } from './views/homeView.js';
 import { certificateView } from './views/certificatsView.js';
 import { workView } from './views/workView.js';
+import { softwareView } from './views/softwareView.js';
 const main = document.querySelector('.root')
 page(decoratorContext);
 
@@ -11,7 +12,7 @@ page('/', homeView);
 page('/index.html', homeView);
 page('/Work', workView);
 page('/Services', serviceView);
-page('/Software', () => console.log(`Software`));
+page('/Software', softwareView);
 page('/About me', homeView);
 page('/certificates', certificateView );
 
